@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title> Headings </title>
+        </head>
+        <body>
+            <h1> A Very Important Heading  </h1>
+            <h6> A Very Important Heading </h6>
+
+            <img src = " https :// raw . githubusercontent . com / siwells / webtech / master /
+                        resources / vmask . jpg " />
+        </body>
+    </html>
+
