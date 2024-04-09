@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Porsche For Sale</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <section id="header" class="header">
+
+    <div class="nav-bar">
+      <div class="logo">
+        <a href="home.html"><img src="Porsche-Logo.png"></a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="home.html" class="active">Home<span>.</span></a></li>
+          <li><a href="cars.html" >Cars</a></li>
+          <li><a href="#" >About</a></li>
+          <li><a href="#" >Technology</a></li>
+          <li><a href="#" >Sell Your Car</a></li>
+          <li><a href="#" >Reviews</a></li>
+        </ul>
+      </div>
+      <div class="social-media">
+        <ul>
+          <li><a href="https://www.instagram.com/porsche/?hl=en"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="https://twitter.com/Porsche"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.linkedin.com/company/porsche-ag/"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="row">
+        <div class="left-sec">
+          <div class="content">
+            <h2><span>Porsche</span><br>911</h2>
+            <p>Featured Porchse 911 for sale</p>
+          </div>
+          <a href="cars.html">
+          <button class="discover-btn" >
+           <p> view more</p><span><i class="fa fa-car"></i></span>
+          </button>
+        </a>
+          <div class="information">
+            <div class="production">
+              <p>Age of car</p>
+              <h2>2000-Present</h2>
+            </div>
+            <div class="production">
+              <p>Location</p>
+              <h2>UK</h2>
+            </div>
+          </div>
+        </div>
+        <div class="right-sec">
+          <div class="my-car">
+            <div><img src="65cbb34b-b61c-48af-b34e-5bd785e95a28_2023+Porsche+911+front+quarter+moving.jpg"></div>
+            <div><img src="porsche-718-boxster-gts-front.jpg"></div>
+            <div><img src="2023-porsche-718-spyder-rs-yellow-v2a3723.jpg"></div>
+            <div><img src="102922437.webp"></div>
+            <div><img src="1_1351565_e.webp"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+  $(document).ready(function(){
+    
+  });
+
+  $(".my-car").slick({
+    autoplay: true,
+	  speed:1000,
+    dots: true,
+    customPaging : function(slider, i) {
+    var thumb = $(slider.$slides[i]).data();
+    return '<a>'+(i+1)+'</a>';
+  },
+   
+});
+</script>
+</body>
+</html>
