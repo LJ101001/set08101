@@ -258,13 +258,15 @@
 
   .listProduct{
     display: inline-block;
-    padding: 20px;
+    padding: 30px;
+    padding-left: 100px;
   }
 
   .listProduct .item{
-    background-color: #d43242;
+    background-color: #fff;
     padding: 20px;
     border-radius: 20px;
+    
   }
 
   .listProduct .item h2{
@@ -277,7 +279,155 @@
     font-size: small;
   }
 
+  .about-section{
+    padding-top: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+  }
+
+  .about-section h1{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 25px;
+    position: relative;
+  }
+
+  .about-section h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #fad962;
+  }
   
+  .about-section p{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 35px;
+  }
+
+  .container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+  }
+
+  .about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
   
-  
-  
+  .about-image{
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+  }
+
+  .about-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+  }
+
+  .about-image:hover img{
+    transform: scale(1.2);
+  }
+
+  .about-content{
+    flex: 1;
+  }
+
+  .about-content h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: #fad962;
+  }
+
+  .about-content p{
+    font-size: 18px;
+    list-style: 1.5;
+    color: #fff;
+  }
+
+  .about-content .read-more{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fad962;
+    color: #000000;
+    font-size: 19px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+  }
+
+  .about-content .read-more:hover{
+    background-color: #fcc707;
+  }
+
+  .blog-container img{
+    width: 100%;
+    height: 270px;
+    
+  }
+  .blog-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-top: 32px;
+  }
+
+  .blog-container .box{
+    flex: 1 1 208px;
+    padding: 20px;
+  }
+
+  .blog-container .box:hover{
+    background-color: #002043;
+  }
+
+  .blog-container .box span{
+    font-size: 13px;
+    color: #fff  ;
+  }
+
+  .blog-container h3{
+    font-size: 19px;
+    color: #fff;
+  }
+
+  .blog-container .box p{
+    font-size: 15px;
+    margin: 4px 0;
+    color: #fff;
+  }
+
+  .blog-container .box .blog-btn{
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    color: #fff;
+    margin-top: 10%;
+  }
+
+  .blog-container .box .blog-btn .bx{ 
+    font-size: 20px;
+  }
+
+  .blog-container .box .blog-btn:hover{
+    color: #fad962;
+    column-gap: 11px;
+    transition: 0.4s;
+
+  }
+
+
