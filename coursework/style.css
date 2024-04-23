@@ -107,11 +107,11 @@
     background-color: #fad962;
   }
   
-  .hero{
+  .info{
     width: 100%;
   }
   
-  .hero .row{
+  .info .row{
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -120,29 +120,29 @@
     margin: auto;
   }
   
-  .hero .row .left-sec{
+  .info .row .left-sec{
     width: 30%;
     margin-top: 100px;
     margin-left: 50px;
   }
   
-  .hero .row .left-sec h2{
+  .info .row .left-sec h2{
     font-size: 85px;
     color: #fff;
   }
   
-  .hero .row .left-sec h2 span{
+  .info .row .left-sec h2 span{
     color: #fad962;
   }
   
-  .hero .row .left-sec p{
+  .info .row .left-sec p{
     margin: 20px 0;
     color: #fff;
     line-height: 28px;
     padding-right: 150px;
   }
   
-  .hero .left-sec .discover-btn{
+  .info .left-sec .discover-btn{
     display: flex;
     align-items: center;
     outline: none;
@@ -152,7 +152,7 @@
     background-color: #fad962;
   }
   
-  .hero .left-sec .discover-btn p{
+  .info .left-sec .discover-btn p{
     color: #000;
     font-size: 20px;
     letter-spacing: 2px;
@@ -160,39 +160,39 @@
     text-transform: capitalize;
   }
   
-  .hero .left-sec .discover-btn span{
+  .info .left-sec .discover-btn span{
     color: #fff;
     font-size: 45px;
   }
   
   
-  .hero .information{
+  .info .information{
     width: 100%;
     display: flex;
     margin-top: 100px;
   }
   
-  .hero .information .production{
+  .info .information .production{
     margin-right: 50px;
     line-height: 3px;
   }
   
-  .hero .information .production h2{
+  .info .information .production h2{
     font-size: 20px;
     letter-spacing: 1px;
   }
   
-  .hero .information .production p{
+  .info .information .production p{
     padding-right: 0;
     letter-spacing: 1px;
   }
   
-  .hero .right-sec{
+  .info .right-sec{
     width: 70%;
     padding-top: 100px;
   }
   
-  .hero .right-sec img{
+  .info .right-sec img{
     width: 950px;
     height: 550px;
     margin: auto;
@@ -374,44 +374,44 @@
     background-color: #fcc707;
   }
 
-  .blog-container img{
+  .blog-sect img{
     width: 100%;
     height: 270px;
     
   }
-  .blog-container{
+  .blog-sect{
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
     margin-top: 32px;
   }
 
-  .blog-container .box{
+  .blog-sect .box{
     flex: 1 1 208px;
     padding: 20px;
   }
 
-  .blog-container .box:hover{
+  .blog-sect .box:hover{
     background-color: #002043;
   }
 
-  .blog-container .box span{
+  .blog-sect .box span{
     font-size: 13px;
     color: #fff  ;
   }
 
-  .blog-container h3{
+  .blog-sect h3{
     font-size: 19px;
     color: #fff;
   }
 
-  .blog-container .box p{
+  .blog-sect .box p{
     font-size: 15px;
     margin: 4px 0;
     color: #fff;
   }
 
-  .blog-container .box .blog-btn{
+  .blog-sect .box .blog-btn{
     display: flex;
     align-items: center;
     column-gap: 4px;
@@ -419,11 +419,11 @@
     margin-top: 10%;
   }
 
-  .blog-container .box .blog-btn .bx{ 
+  .blog-sect .box .blog-btn .bx{ 
     font-size: 20px;
   }
 
-  .blog-container .box .blog-btn:hover{
+  .blog-sect .box .blog-btn:hover{
     color: #fad962;
     column-gap: 11px;
     transition: 0.4s;
@@ -571,15 +571,7 @@
 
   }
 
-  :root {
-	--yellow: #FFBD13;
-	--blue: #4383FF;
-	--blue-d-1: #3278FF;
-	--light: #F5F5F5;
-	--grey: #AAA;
-	--white: #FFF;
-	--shadow: 8px 8px 30px rgba(0,0,0,.05);
-}
+
 
 
 .wrapper {
@@ -602,7 +594,7 @@
 	align-items: center;
 	grid-gap: .5rem;
 	font-size: 2rem;
-	color: var(--yellow);
+	color: #FFBD13;
 	margin-bottom: 2rem;
 }
 .rating .star {
@@ -716,4 +708,5 @@ form button{
   width: 150px;
   margin: 20px auto 0;
   border-radius: 30px;
+  display: inline-block;
 }

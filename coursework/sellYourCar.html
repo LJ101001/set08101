@@ -40,15 +40,18 @@
         </br>
         </br>
         <section>
-            <div class="form">
-                <form class="form2" action="https://api.web3forms.com/submit" method="POST">
+            <div class="form" id="myForm">
+                <form action="https://api.web3forms.com/submit" method="POST">
                     <h3>Get In Touch</h3>
                     <input type="hidden" name="access_key" value="a2a14667-9d27-4bae-b8fe-04d70aff11e7">
                     <input type="text" name="name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Email Adsress" required>
-                    <input type="text" name="phone" placeholder="Phone Number" required>
-                    <textarea id="message" name="Car Info" rows="4" placeholder="Please input car specifications"></textarea>
-                    <button type="submit">Send</button>
+                    <input class="Float-right" type="email" name="email" placeholder="Email Address" required>
+                    <input type="text" name="Model" placeholder="Model" required>
+                    <input type="date" name="Year" placeholder="Year" required>
+                    <input type="text" name="Mileage" placeholder="Mileage" required>
+                    <textarea id="message" name="Car Info" rows="4" placeholder="Please any extra car specifications"></textarea>
+                    <button  type="submit">Send</button>
+                    <button  type="reset">Reset</button>
                 </form>
             </div>
         </section>
@@ -83,11 +86,12 @@
                     </div>
 
                 </div>
-           </section>
+        
+        
+         
         
 
     
 </body>
 </html>
 
-Paul1290
